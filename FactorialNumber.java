@@ -32,10 +32,7 @@ public class FactorialNumber implements Runnable {
 	@Override
 	public void run() {
 		Thread th = Thread.currentThread();
-		// for (int i = 0; i < this.number; i++) {
-
 		System.out.println(th.getName() + "\t" + this.number + "! =" + calculateFactorial(this.number));
-		// }
 	}
 
 }
